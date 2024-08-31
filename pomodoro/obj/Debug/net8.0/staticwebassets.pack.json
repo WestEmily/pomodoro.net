@@ -9,8 +9,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\pomodoro.js",
+      "PackagePath": "staticwebassets\\js\\pomodoro.js"
     },
     {
       "Id": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\site.js",

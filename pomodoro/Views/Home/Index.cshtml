@@ -1,8 +1,27 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    var textVariable = "This is a message from C# code";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="card">
+        <div class="card-body"> 
+            <button class="button-selected">Pomodoro</button> <button class="button-unselected">Short Break</button> <button class="button-unselected">Long Break</button>
+            <div>
+                <timer id="timerDisplay">25:00</timer>
+                @* <h1 id="textDisplay">@textVariable</h1> <!-- Display the C# variable --> *@
+            </div>
+            <button class="start-button" id="start-button">Start</button>
+        </div>
+    </div>
 </div>
+<br/>
+<div>
+    <h6 class="text-center" id="pomoCounter">#1</h6>
+    <h3>Tasks:</h3>
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript" src="~/js/pomodoro.js"></script>
+}
