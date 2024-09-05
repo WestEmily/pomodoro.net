@@ -6,7 +6,11 @@
 <div class="text-center">
     <div class="card">
         <div class="card-body"> 
-            <button class="button-selected">Pomodoro</button> <button class="button-unselected">Short Break</button> <button class="button-unselected">Long Break</button>
+            <div>
+                <button class="button-selected" id="pomodoroBtn" onclick="setTimer('pomodoro')">Pomodoro</button>
+                <button class="button-unselected" id="shortBreakBtn" onclick="setTimer('short')">Short Break</button>
+                <button class="button-unselected" id="longBreakBtn" onclick="setTimer('long')">Long Break</button>
+            </div>
             <div>
                 <timer id="timerDisplay">25:00</timer>
                 @* <h1 id="textDisplay">@textVariable</h1> <!-- Display the C# variable --> *@
@@ -17,11 +21,18 @@
 </div>
 <br/>
 <div>
-    <h6 class="text-center" id="pomoCounter">#1</h6>
+    <h6 class="text-center" id="pomo-counter">#1</h6>
     <h3>Tasks:</h3>
 </div>
 
 @section Scripts
 {
     <script type="text/javascript" src="~/js/pomodoro.js"></script>
+@*     <script>
+        function setTimer(timerType) {
+            document.getElementById("timerType").value = timerType;
+            document.getElementById("timerForm").submit();
+        }
+    </script> *@
+    
 }
