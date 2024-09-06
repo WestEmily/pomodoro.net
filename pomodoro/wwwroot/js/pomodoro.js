@@ -31,15 +31,15 @@ $(document).ready(function () {
 
                         // Stop the countdown when the timer reaches zero
                         if (timerDuration <= 0) {
-                            clearInterval(interval);
+                            // clearInterval(interval);
                             $('#timerDisplay').text("Time's up!");
                             $('#start-button').hide();
                             $('#pomo-counter').text("#" + ++counter);
 
                             // pomoStage = 1;
-                            $('#short').removeClass("button-selected").addClass("button-unselected");
-                            $('#pomo').removeClass("button-unselected").addClass("button-selected");
-                            location.reload();
+                            // $('#short').removeClass("button-selected").addClass("button-unselected");
+                            // $('#pomo').removeClass("button-unselected").addClass("button-selected");
+                            // location.reload();
                         }
 
                         $('#start-button').click(function () {

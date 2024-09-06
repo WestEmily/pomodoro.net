@@ -1,10 +1,12 @@
 var interval;
 var timerStarted = false;
 var isPaused = false;  // Track the pause state
-var counter = 1;
+var counter = 0;
+var pomodoroPhase = 'pomodoro';
+var shortBreakAmount = 3;
 $(document).ready(function () {
     // Automatically set the timer to Pomodoro when the page loads
-    setTimer('pomodoro');
+    setTimer(pomodoroPhase);
 
     $("#start-button").click(function () {
         if (!timerStarted) {
@@ -34,11 +36,35 @@ $(document).ready(function () {
 
                 // Stop the countdown when the timer reaches zero
                 if (timerDuration <= 0) {
+                    //clearInterval(interval);
+                    //$('#timerDisplay').text("Time's up!");
+                    //$('#start-button').hide();
+                    //$('#pomo-counter').text("#" + ++counter);
+                    // location.reload(); // Optional: reset after time's up
+
                     clearInterval(interval);
                     $('#timerDisplay').text("Time's up!");
                     $('#start-button').hide();
-                    $('#pomo-counter').text("#" + ++counter);
-                    location.reload(); // Optional: reset after time's up
+
+                    sleep(2000).then(() => {
+                        $('#start-button').show();
+                        console.log('pomodoroPhase = ' + pomodoroPhase);
+                        if (pomodoroPhase == 'pomodoro') {
+                            console.log("checking phase = pomodoro");
+                            console.log("shortBreakAmount = " + shortBreakAmount);
+                            if (shortBreakAmount > 0) {
+                                pomodoroPhase = 'short';
+                                shortBreakAmount--;
+                            } else {
+                                pomodoroPhase = 'long';
+                                shortBreakAmount = 3;
+                            }
+                        } else {
+                            pomodoroPhase = 'pomodoro';
+                        }
+                        setTimer(pomodoroPhase);
+                    });
+
                 }
             }
         }, 1000); // 1000 milliseconds = 1 second
@@ -59,6 +85,7 @@ function setTimer(timerType) {
     clearInterval(interval);
     timerStarted = false;
     isPaused = false;
+    pomodoroPhase = timerType;
 
     $('#start-button').text("Start"); // Reset the start button
 
@@ -74,6 +101,9 @@ function setTimer(timerType) {
 
                 // Update button styles
                 updateButtonStyles(timerType);
+                if (timerType == 'pomodoro') {
+                    $('#pomo-counter').text("#" + ++counter);
+                }
             }
         },
         error: function (error) {
@@ -104,4 +134,8 @@ function formatTime(seconds) {
     var minutes = Math.floor(seconds / 60);
     var seconds = seconds % 60;
     return (minutes < 10 ? "0" : "") + minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
