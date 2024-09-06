@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F486DD8D-8ABD-4165-8F7E-E5121C6A8900}|pomodoro.csproj|c:\\users\\hp\\emmersbug712\\onedrive\\documents\\practice apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\pomo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F486DD8D-8ABD-4165-8F7E-E5121C6A8900}|pomodoro.csproj|solutionrelative:wwwroot\\js\\pomo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F486DD8D-8ABD-4165-8F7E-E5121C6A8900}|pomodoro.csproj|c:\\users\\hp\\emmersbug712\\onedrive\\documents\\practice apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\pomodoro.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{F486DD8D-8ABD-4165-8F7E-E5121C6A8900}|pomodoro.csproj|solutionrelative:wwwroot\\js\\pomodoro.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -38,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-30T21:27:02.33Z",
               "IsPinned": true,
@@ -56,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "pomodoro.js",
               "DocumentMoniker": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\pomodoro.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\pomodoro.js",
               "ToolTip": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\pomodoro.js",
               "RelativeToolTip": "wwwroot\\js\\pomodoro.js",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAwwFwAAAAjAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAYwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-08-30T23:36:53.204Z",
               "IsPinned": true,
@@ -70,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "styles.css",
               "DocumentMoniker": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
@@ -82,12 +86,26 @@
               "IsPinned": true
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pomo.js",
+              "DocumentMoniker": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\pomo.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\pomo.js",
+              "ToolTip": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\pomo.js",
+              "RelativeToolTip": "wwwroot\\js\\pomo.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-05T22:27:04.158Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TimerController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\Controllers\\TimerController.cs",
               "RelativeDocumentMoniker": "Controllers\\TimerController.cs",
@@ -95,12 +113,11 @@
               "RelativeToolTip": "Controllers\\TimerController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T19:21:12.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T19:21:12.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -112,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -120,12 +137,11 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAowCwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T21:31:16.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T21:31:16.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",

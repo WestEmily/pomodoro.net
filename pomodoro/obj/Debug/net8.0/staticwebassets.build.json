@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b8JdGYKpVicp7iIoek0DFchFFMeKWa3W77eB0bhHpL0=",
+  "Hash": "E8T0Nm1FENmo+/90hiWQ5bTBH1M5aFs524ogurXwWsk=",
   "Source": "pomodoro",
   "BasePath": "_content/pomodoro",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\pomo.js",
+      "SourceId": "pomodoro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\",
+      "BasePath": "_content/pomodoro",
+      "RelativePath": "js/pomo.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\pomo.js"
     },
     {
       "Identity": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\pomodoro.js",

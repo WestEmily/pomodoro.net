@@ -10,14 +10,10 @@ $(document).ready(function () {
     $("#start-button").click(function () {
         if (timerStarted == false) {
             timerStarted = true;
-            console.log("timerStarted = false");
+            console.log("timerStarted = true");
             console.log("start button clicked first time");
             // Set the initial timer duration (25 minutes in seconds)
             var interval;  // Declare the interval globally
-            
-            
-
-            
 
 
             // Function to update the timer every second
@@ -59,14 +55,23 @@ $(document).ready(function () {
                         $('#start-button').text("Resume");
 
                     }
-                    
+
                 }, 1000); // 1000 milliseconds = 1 second
             }
 
             // Start the countdown when the page loads
             startCountdown();
             $('#start-button').text("Pause");
-        } 
+            isPaused = false;
+        }
+        //} else {
+        //    console.log("ELSE");
+        //    if (isPaused == true) {
+        //        console.log("inside ELSE, isPaused = true");
+        //    } else {
+        //        console.log("inside ELSE, isPaused = false");
+        //    }
+        //}
         
     });
 });
@@ -92,8 +97,7 @@ function setTimer(timerType) {
                 var timerStarted = false;
                 var isPaused = true;
 
-
-                //console.log(timerDuration);
+                console.log(timerDuration);
             }
             
         },
