@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\notification.wav",
+      "PackagePath": "staticwebassets\\js\\notification.wav"
+    },
+    {
       "Id": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\pomo.js",
       "PackagePath": "staticwebassets\\js\\pomo.js"
     },

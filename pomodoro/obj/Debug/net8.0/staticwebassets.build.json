@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E8T0Nm1FENmo+/90hiWQ5bTBH1M5aFs524ogurXwWsk=",
+  "Hash": "nErTgQhpPWemg9vsVek3TQ8FWUDPoHEi4r0bxyjuwE0=",
   "Source": "pomodoro",
   "BasePath": "_content/pomodoro",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\notification.wav",
+      "SourceId": "pomodoro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\",
+      "BasePath": "_content/pomodoro",
+      "RelativePath": "js/notification.wav",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\notification.wav"
     },
     {
       "Identity": "C:\\Users\\HP\\emmersbug712\\OneDrive\\Documents\\Practice Apps\\pomodoro.net\\pomodoro\\wwwroot\\js\\pomo.js",

@@ -36,11 +36,10 @@ $(document).ready(function () {
 
                 // Stop the countdown when the timer reaches zero
                 if (timerDuration <= 0) {
-                    //clearInterval(interval);
-                    //$('#timerDisplay').text("Time's up!");
-                    //$('#start-button').hide();
-                    //$('#pomo-counter').text("#" + ++counter);
-                    // location.reload(); // Optional: reset after time's up
+                    // Play the notification sound
+                    var audio = document.getElementById("timerSound");
+                    audio.play();
+
 
                     clearInterval(interval);
                     $('#timerDisplay').text("Time's up!");
@@ -138,4 +137,14 @@ function formatTime(seconds) {
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function pomoCounter(direction) {
+    if (direction == 'increase') {
+        $('#pomo-counter').text("#" + ++counter);
+    } else {
+        if (counter > 1) {
+            $('#pomo-counter').text("#" + --counter);
+        }
+    }
 }

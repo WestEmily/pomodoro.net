@@ -1,6 +1,6 @@
-﻿@{
+﻿@model IEnumerable<pomodoro.Models.DTO.Affirmation>
+@{
     ViewData["Title"] = "Home Page";
-    var textVariable = "This is a message from C# code";
 }
 
 <div class="text-center">
@@ -13,7 +13,7 @@
             </div>
             <div>
                 <timer id="timerDisplay">25:00</timer>
-                @* <h1 id="textDisplay">@textVariable</h1> <!-- Display the C# variable --> *@
+                <audio id="timerSound" src="~/js/notification.wav" preload="auto"></audio>
             </div>
             <button class="start-button" id="start-button">Start</button>
         </div>
@@ -21,18 +21,46 @@
 </div>
 <br/>
 <div>
-    <h6 class="text-center" id="pomo-counter">#1</h6>
+    <div class="row text-center">
+        <div class="col text-center d-flex justify-content-center align-items-center">
+            @* <button class="button-counter btn-sm" id="decrease-btn" onclick="pomoCounter('decrease')">-</button> *@
+            <button class="btn btn-secondary btn-sm" id="decrease-btn" onclick="pomoCounter('decrease')">-</button>
+
+            <h6 id="pomo-counter" class="mx-2">#1</h6>
+            <button class="btn btn-secondary btn-sm" id="increase-btn" onclick="pomoCounter('increase')">+</button>
+        </div>
+    </div>
+
+    
     <h3>Tasks:</h3>
+    <div class="row">
+        @* <div class="col-8">
+            <input type="text" class="form-control" placeholder="New Task" />
+        </div>
+        <div class="col">
+            <input class="form-control button-unselected" type="submit" value="Add" />
+        </div> *@
+        <div class="col">
+            <form id="search-bar" class="d-flex pb-5" role="search">
+                <input id="searchQuery" class="form-control" type="search" name="task" placeholder="New Task" aria-label="Task">
+
+                <button id="search-btn" class="button-selected" type="submit">Add</button>
+            </form>
+        </div>
+        <div class="col text-center">
+            @if (Model.Any())
+            {
+                <h5>Affirmations</h5>
+                @foreach (var affirmation in Model)
+                {
+                    <p>#@affirmation.Id - @affirmation.Description</p>
+                }
+            }
+        </div>
+    </div>
 </div>
 
 @section Scripts
 {
-    <script type="text/javascript" src="~/js/pomo.js"></script>
-@*     <script>
-        function setTimer(timerType) {
-            document.getElementById("timerType").value = timerType;
-            document.getElementById("timerForm").submit();
-        }
-    </script> *@
-    
+    <script type="text/javascript" src="~/js/pomo.js"></script>    
 }

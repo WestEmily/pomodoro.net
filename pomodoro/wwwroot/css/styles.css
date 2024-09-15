@@ -43,3 +43,9 @@ timer {
     color: white;
     font-size: 72px;
 }
+
+.button-counter {
+    background-color: var(--blue);
+    font-size: medium;
+    border:thin;
+}
